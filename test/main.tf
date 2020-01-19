@@ -35,3 +35,10 @@ output "query" {
 output "fragment" {
   value = module.test.fragment
 }
+
+
+module "test_chomp" {
+  source = "./.."
+
+  url = "http://google.com\n"
+}

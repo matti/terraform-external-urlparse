@@ -1,7 +1,7 @@
 variable "url" {}
 
 data "external" "parse" {
-  program = ["ruby", "${path.module}/parse.rb", var.url]
+  program = ["ruby", "${path.module}/parse.rb", chomp(var.url)]
 }
 
 output "scheme" {
