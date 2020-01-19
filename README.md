@@ -1,6 +1,6 @@
 # terraform-external-urlparse
 
-````
+```
 module "test" {
   source = "./.."
 
