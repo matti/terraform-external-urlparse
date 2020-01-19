@@ -1,4 +1,4 @@
-# terraform-urlparse
+# terraform-external-urlparse
 
 ````
 module "test" {
