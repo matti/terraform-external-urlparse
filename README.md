@@ -2,7 +2,7 @@
 
 ```
 module "test" {
-  source = "./.."
+  source = "matti/urlparse/external"
 
   url = "http://user:pass@www.example.com:8080/path?query1=1&query2=2#frag"
 }
